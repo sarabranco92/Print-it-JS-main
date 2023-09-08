@@ -1,5 +1,4 @@
 const slides = [
-<<<<<<< HEAD
 	{
 		"image":"slide1.jpg",
 		"tagLine":"Impressions tous formats <span>en boutique et en ligne</span>"
@@ -17,26 +16,6 @@ const slides = [
 		"tagLine":"Autocollants <span>avec découpe laser sur mesure</span>"
 	}
 ]
-=======
-    {
-        "image": "slide1.jpg",
-        "tagLine": "Impressions tous formats en boutique et en ligne"
-    },
-    {
-        "image": "slide2.jpg",
-        "tagLine": "Tirages haute définition grand format pour vos bureaux et événements"
-    },
-    {
-        "image": "slide3.jpg",
-        "tagLine": "Grand choix de couleurs de CMJN aux pantones"
-    },
-    {
-        "image": "slide4.png",
-        "tagLine": "Autocollants avec découpe laser sur mesure"
-    }
-];
-
->>>>>>> 84bd76d06960f5c7fd6da178d1b4489128839bcc
 let currentSlide = 0;
 
 const banner = document.querySelector("#banner");
@@ -67,17 +46,9 @@ function showSlide(index) {
     const spanElement = document.createElement("span");
     spanElement.textContent = deuxiemeMoitie;
 
-<<<<<<< HEAD
 
    tagLineContainer.innerHTML = tagLineText
 
-=======
-    // Effacer le contenu existant et ajouter les nouveaux éléments
-    tagLineContainer.innerHTML = '';
-    tagLineContainer.appendChild(pElement);
-    tagLineContainer.appendChild(spanElement);
-
->>>>>>> 84bd76d06960f5c7fd6da178d1b4489128839bcc
     // Mettre à jour l'image du carrousel
     const carouselImage = document.querySelector(".banner-img");
     carouselImage.src = `./assets/images/slideshow/${slide.image}`;
