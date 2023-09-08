@@ -33,19 +33,6 @@ function showSlide(index) {
     const tagLineText = slide.tagLine;
     const tagLineContainer = document.getElementById("tagLineContainer");
 
-    // Diviser la ligne de légende en deux moitiés à un mot complet
-    const demiLongueur = tagLineText.lastIndexOf(" ", Math.floor(tagLineText.length / 2));
-    const premiereMoitie = tagLineText.substring(0, demiLongueur);
-    const deuxiemeMoitie = tagLineText.substring(demiLongueur);
-
-    // Créer un élément <p> pour la première moitié de la légende
-    const pElement = document.createElement("p");
-    pElement.textContent = premiereMoitie;
-
-    // Créer un élément <span> pour la deuxième moitié de la légende
-    const spanElement = document.createElement("span");
-    spanElement.textContent = deuxiemeMoitie;
-
 
     tagLineContainer.innerHTML = tagLineText
 
