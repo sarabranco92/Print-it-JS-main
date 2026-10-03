@@ -30,3 +30,7 @@ Le projet se concentre sur l'utilisation de JavaScript pour ajouter de la dynami
 - **JavaScript :** Maitrise des fondamentaux de JavaScript pour le développement web.
 - **Interactivité :** Capacité à rendre une page web statique interactive avec JavaScript.
 - **Responsive Design :** Assurer que le carrousel est responsive et fonctionne sur tous les appareils.
+
+## Setup and maintenance guide
+
+See the [project guide](docs/PROJECT_GUIDE.md) for repository-specific setup, commands, configuration, implementation limits and verification steps.
